@@ -1,4 +1,5 @@
-"""Utilities needed to emulate Python's interactive interpreter.
+"""
+Utilities needed to emulate Python's interactive interpreter.
 
 """
 
@@ -211,7 +212,7 @@ class InteractiveConsole(InteractiveInterpreter):
             sys.ps2
         except AttributeError:
             sys.ps2 = "... "
-        cprt = 'Type "help", "copyright", "credits" or "license" for more information.'
+        cprt = 'Type "help", "copyright", "credits" or "license" for more information. hayder zaeem was here to see all this code ......'
         if banner is None:
             self.write("Python %s on %s\n%s\n(%s)\n" %
                        (sys.version, sys.platform, cprt,

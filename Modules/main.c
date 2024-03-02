@@ -23,7 +23,7 @@
 
 #define COPYRIGHT \
     "Type \"help\", \"copyright\", \"credits\" or \"license\" " \
-    "for more information."
+    "for more information. hayder zaeem was here....."
 
 #ifdef __cplusplus
 extern "C" {
